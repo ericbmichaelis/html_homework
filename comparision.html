@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="EN-us">
+  <head>
+
+  <!-- CSS  -->
+        <link rel="stylesheet" href="theme.css" media="screen">
+ </head>
+
+ <body> 
+<!-- Nav bar -->
+<nav class="navbar navbar-default">
+        <div class="container-fluid navbar-custom">
+
+<!-- Toggle Nav-->
+<div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed">
+            <span class="sr-only">Toggle</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="col-xs-9 phone-nav">
+            <a class="navbar-brand" href="#" id="logo">Weahter Data Closer to Equator</a>
+          </div>
+        </div>
+
+<!-- Navbar links and forms -->    
+        <li class="dropdown">
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                 <li><a href="visuals/temp.html">Max Temperature</a></li>
+                  <li><a href="visuals/humidity.html">Humidity</a></li>
+                  <li><a href="visuals/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="visuals/wind.html">Wind Speed</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Start of container -->
+    <div class="container">
+        <div class="col-md-4">
+            <h2 class="comparison-header">vs. Wind Speed</h2>
+            <a href="visuals/wind.html"><img src="assets/Fig4.png" alt="Latitude vs. Wind Speed" class="comparison-image img-responsive"></a>
+          </div>
+            <h1 class="description-header">Latitude vs X</h1>
+            <hr class="description-hr"/>
+            <p class="description-text">Click on a plot to see the full picture.</p>
+          </div>
+          <div class="col-md-4">
+            <h2 class="comparison-header">vs. Humidity</h2>
+            <a href="visuals/humidity.html"><img src="assets/Fig2.png" alt="Latitude vs. Humidity" class="comparison-image img-responsive"></a>
+            <hr class="visible-xs visible-sm">
+          </div>
+          <div class="col-md-4">
+              <h2 class="comparison-header">vs. Max Temperature</h2>
+              <a href="visuals/temp.html"><img src="assets/Fig1.png" alt="Latitude vs. Max Temperature" class="comparison-image img-responsive"></a>
+              <hr class="visible-xs visible-sm">
+            </div>
+          <div class="col-md-4">
+            <h2 class="comparison-header">vs. Cloudiness</h2>
+            <a href="visuals/cloudiness.html"><img src="assets/Fig3.png" alt="Latitude vs. Cloudiness" class="comparison-image img-responsive"></a>
+            <hr class="visible-xs visible-sm">
+          </div>
+         
+        </article>
+      </div>
+      <!-- End of container  -->

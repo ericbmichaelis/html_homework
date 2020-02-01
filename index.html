@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="EN-us">
+  <head>
+
+  <!-- CSS  -->
+        <link rel="stylesheet" href="theme.css" media="screen">
+ </head>
+
+ <body> 
+<!-- Nav bar -->
+<nav class="navbar navbar-default">
+        <div class="container-fluid navbar-custom">
+
+<!-- Toggle Nav-->
+<div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed">
+            <span class="sr-only">Toggle</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="col-xs-9 phone-nav">
+            <a class="navbar-brand" href="#" id="logo">Weahter Data Closer to Equator</a>
+          </div>
+        </div>
+
+<!-- Navbar links and forms -->    
+        <li class="dropdown">
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                 <li><a href="visuals/temp.html">Max Temperature</a></li>
+                  <li><a href="visuals/humidity.html">Humidity</a></li>
+                  <li><a href="visuals/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="visuals/wind.html">Wind Speed</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Description of project -->
+    <div class="container">
+            <section class="row">
+                <article class="description-content">
+                  <h1 class="description-header">Summary: Latitude vs. X</h1>
+                  <hr class="description-hr"/>
+                  <img src="assets/images/Fig1.png" alt="" id="description-image"/>
+                  <p>The purpose of this project is to see how weather adapats as you get closer to the equator.</p>
+                  <p>We gathered the data and used Matplotlib to plot different aspects of the weather, including: humidity, cloudiness, wind, and temperature </p>
+                </article>
+              </div>
+              <div class="col-md-6">
+        
+     <!-- Start of Visualizations imageNav Area -->
+     <section id="imageNav">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Links</h2>
+              <hr />
+              <div id="links">
+                <a href="visuals/temp.html"> <alt="Latitude vs. Max Temperature></a>
+                <a href="visuals/humidity.html"> <alt="Latitude vs. Humidity></a>
+                <a href="visuals/cloudiness.html"> <alt="Latitude vs. Cloudiness" class></a>
+                <a href="visuals/wind.html"> <alt="Latitude vs. Wind Speed"></a>
+              </div>
+            </div>
+          </section>
